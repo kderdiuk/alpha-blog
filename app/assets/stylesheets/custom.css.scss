@@ -54,6 +54,27 @@
 .description{
   margin-top: 0px;
 }
+
+.card{
+  padding-left: 15px;
+}
+
+.article-title{
+  padding-top: 8x;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.messages{
+//text-transform: uppercase;
+}
+
 footer{
   margin-top: 45px;
   padding-top: 5px;
@@ -91,3 +112,10 @@ footer ul li{
 // wann muss man .etwas{} oder einfach etwas{} schreiben
 
 //_messages=> in alerts statt X erscheint "}"
+// padding_bottoom 15px for every flash
+
+
+
+//Solved:
+//<%= link_to article.title, article_path(article) %>  wann schreibt man "@article" und wann "article"?
+//A: "article" is used in cas of iterating with=> for each |article|
