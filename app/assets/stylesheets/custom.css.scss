@@ -20,14 +20,6 @@
   text-decoration: none;
 }
 
-#articles_l{
-  float:left;
-  font-size: 1.7em;
-  colour: #fff;
-  text-transform: uppercase;
-  letter-spacig: -1;
-  font-weight: bold;
-}
 
 .center{
   text-align: center;
@@ -77,3 +69,14 @@ footer ul li{
   float: left;
   margin-left: 15px;
 }
+
+.dropdown-menu {
+  text-align: left;
+}
+
+#new_label{
+  text-align: center;
+}
+
+//dropdown menu: align left doesnt work
+// wann muss man .etwas{} oder einfach etwas{} schreiben
