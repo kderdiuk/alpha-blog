@@ -5,6 +5,19 @@
 
 @import "bootstrap";
 
+.badge{
+  background-color: lightblue;
+  text-transform: uppercase;
+  lette-spacing: -1px;
+  font-weight: bold;
+
+  width: auto !important;
+}
+
+.checkbox-inline  {
+  padding-right: 8px;
+  width: auto !important;
+}
 
 #logo{
   float:left;
